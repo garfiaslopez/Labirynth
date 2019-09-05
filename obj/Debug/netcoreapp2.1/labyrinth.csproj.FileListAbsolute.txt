@@ -1,0 +1,11 @@
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/bin/Debug/netcoreapp2.1/labyrinth.deps.json
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/bin/Debug/netcoreapp2.1/labyrinth.runtimeconfig.json
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/bin/Debug/netcoreapp2.1/labyrinth.runtimeconfig.dev.json
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/bin/Debug/netcoreapp2.1/labyrinth.dll
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/bin/Debug/netcoreapp2.1/labyrinth.pdb
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/obj/Debug/netcoreapp2.1/labyrinth.csprojAssemblyReference.cache
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/obj/Debug/netcoreapp2.1/labyrinth.csproj.CoreCompileInputs.cache
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/obj/Debug/netcoreapp2.1/labyrinth.AssemblyInfoInputs.cache
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/obj/Debug/netcoreapp2.1/labyrinth.AssemblyInfo.cs
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/obj/Debug/netcoreapp2.1/labyrinth.dll
+/Users/josegarfias/Library/Mobile Documents/com~apple~CloudDocs/IPN/9no/AgentesInteligentes/Practicas/labyrinth/obj/Debug/netcoreapp2.1/labyrinth.pdb
