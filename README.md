@@ -1,4 +1,4 @@
-# Labirynth Path Finder
+# Labyrinth Path Finder
 
 Find a path to exit the labyrinth.
 
