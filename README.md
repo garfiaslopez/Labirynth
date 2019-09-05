@@ -1,6 +1,6 @@
 # Labyrinth Path Finder
 
-Find a path to exit the labyrinth.
+Find a path to exit the labyrinth. Using DFS algorithm to search the exit and saving the positions to construct a path.
 
 ## Maze values
 * -1 => Origin
