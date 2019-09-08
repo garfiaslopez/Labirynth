@@ -43,7 +43,7 @@ namespace labyrinth
         static Pair<int,int> destiny = new Pair<int, int>(0,0);
 
         static void readLabyrinth() {
-            string[] lines = File.ReadAllLines("./Input.txt");
+            string[] lines = File.ReadAllLines("./Input2.txt");
             maxFil = lines.Length;
             int i = 1;
             foreach (string line in lines) {
@@ -87,6 +87,8 @@ namespace labyrinth
             Matrix[origin.First, origin.Second] = 1;
             StackOfCoords.Push(origin);
             int pathPosition = 0;
+            Stack <int> PathPositions = new Stack<int>();
+
             while(StackOfCoords.Count > 0) {
                 Pair<int,int> LastCell = StackOfCoords.Pop();
                 int cells = 0;
@@ -108,11 +110,14 @@ namespace labyrinth
                 }
                 if (cells > 1) { // si encontramos una bifurcación
                     pathPosition = Path.Count - 1;
+                    PathPositions.Push(Path.Count - 1);
                 }
                 if (cells == 0) { // si estamos en un camino sin salida
-                    List< Pair<int,int> > newPath = new List< Pair<int,int> > (Path.Count - 1);
-                    newPath.AddRange(Enumerable.Repeat(new Pair<int,int>(), (Path.Count - 1)));
-                    for (int i=0; i<=pathPosition; i++) {
+                    int untilPosition = PathPositions.Pop();
+
+                    List< Pair<int,int> > newPath = new List< Pair<int,int> > (untilPosition+1);
+                    newPath.AddRange(Enumerable.Repeat(new Pair<int,int>(), (untilPosition+1)));
+                    for (int i=0; i<=untilPosition; i++) {
                         newPath[i] = Path[i];
                     }
                     Path = newPath;
